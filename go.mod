@@ -1,3 +1,3 @@
-module github.com/laurentsimon/godep2/v1
+module github.com/laurentsimon/godep2
 
 go 1.18
