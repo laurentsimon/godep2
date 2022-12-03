@@ -2,8 +2,8 @@ package godep2
 
 import "os"
 
-func TestEnv(s name) string {
-	return os.Getenv(s)
+func TestEnv(name string) string {
+	return os.Getenv(name)
 }
 
 func TestEnv2() string {
