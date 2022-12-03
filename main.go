@@ -11,6 +11,6 @@ func TestEnv2() string {
 	return os.Getenv("SOME_VAR2")
 }
 
-func TestEnvThruDep3() string {
-	return godep3.TestEnv("DEP2_THRU_DEP3")
+func TestEnvThruDep3(name string) string {
+	return godep3.TestEnv(name)
 }
