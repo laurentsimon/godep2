@@ -30,7 +30,8 @@ jobs:
           persist-credentials: false
 
       - name: "Run analysis"
-        uses: laurentsimon/scorecard-action@fix/emptyprs # tag=v2.0.4
+        #uses: laurentsimon/scorecard-action@fix/emptyprs # tag=v2.0.4
+        uses: ossf/scorecard-action@v2.0.4 # tag=v2.0.4
         with:
           results_file: results.sarif
           results_format: sarif
